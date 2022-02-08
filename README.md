@@ -1,6 +1,21 @@
 # CopyCord
 Visual Studioで作成した、自機を中心とした周囲8マスをコピーするコードです。
 
+//mapcipのサイズ
+const int BLOCK_SIZE = 32;
+const int MAP_SIZE = 32;
+//ブロックサイズの半径
+const int BLOCK_SIZE_R = 16;
+
+自機から見て
+上段を左から012
+中段を3、自機、4
+下段を左から567
+とした変数を用意しました。
+
+int serchCountMapchipX[8];
+int serchCountMapchipY[8];
+
 // 012
 // 3 4
 // 567
