@@ -5,7 +5,7 @@ Visual Studioで作成した、自機の周囲8マスをコピーするコード
 
 
 
-
+\n
 
 if (keys[KEY_INPUT_LCONTROL] == 1)
 				{
