@@ -169,7 +169,7 @@ Visual Studioで作成した、自機の周囲8マスをコピーするコード
 		}
 
 
-if (keys[KEY_INPUT_LCONTROL] == 1)
+	if (keys[KEY_INPUT_LCONTROL] == 1)
 				{
 					if (keys[KEY_INPUT_V] == 1 && oldkeys[KEY_INPUT_V] == 0 && commandCount >= 1 && jumpHeight != 0)
 					{
