@@ -11,7 +11,7 @@ const int BLOCK_SIZE_R = 16;
 上段を左から012
 中段を3、自機、4
 下段を左から567
-とした変数を用意しました。
+とした変数を用意しました。 by iPad
 
 int serchCountMapchipX[8];
 int serchCountMapchipY[8];
