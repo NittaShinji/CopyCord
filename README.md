@@ -4,14 +4,14 @@ Visual Studioで作成した、自機を中心とした周囲8マスをコピー
 //mapcipのサイズ
 const int BLOCK_SIZE = 32;
 const int MAP_SIZE = 32;
-//ブロックサイズの半径
+//ブロックサイズの半径は
 const int BLOCK_SIZE_R = 16;
 
 自機から見て
 上段を左から012
 中段を3、自機、4
 下段を左から567
-とした変数を用意しました。 by iPad
+とした変数を用意しました。 by iPad 
 
 int serchCountMapchipX[8];
 int serchCountMapchipY[8];
